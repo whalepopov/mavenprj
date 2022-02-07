@@ -44,7 +44,6 @@ public class Main {
         //перевернутый
         one = indexStorage.reverse();
         System.out.println("Перевернули: " + Arrays.toString(one));
-
         //наследник
         ArrayIndexStorage arrayIndexStorage = new ArrayIndexStorage(one);
         int num = inputNumber("Введите номер ячейки: ");
